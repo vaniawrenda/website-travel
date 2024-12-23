@@ -1,0 +1,94 @@
+.container-chart {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-filter {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.chart-container {
+    text-align: center;
+}
+
+canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+/* TABELLL */
+table {
+    width: 100%;
+    border: 2px solid #ddd;
+    font-family: Arial, sans-serif;
+}
+
+/* untuk header tabel */
+th {
+    background-color: #8f8f8f;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* untuk sel data */
+td {
+    border: 1px solid #dad2d2;
+    padding: 8px;
+}
+
+/* untuk baris ganjil */
+tr:nth-child(even) {
+    background-color: #ebe4e4;
+}
+
+/* untuk total */
+.total {
+    font-weight: bold;
+    background-color: #c4c4c4;
+}
+
+.container-table {
+    margin: 20px auto;
+    width: 80%;
+    border: 1px solid #d4cece;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+
+    table {
+        width: 100%;
+    }
+}

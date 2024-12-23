@@ -1,0 +1,107 @@
+.custom-image {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+
+.blog__bromo .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.left-column,
+.right-column {
+    flex: 1 1 100%;
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+
+    .left-column,
+    .right-column {
+        flex: 0 0 50%;
+        padding: 20px;
+    }
+}
+
+.left-right {
+    flex: 1 1 100%;
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+    .left-right {
+        flex: 0 0 30%;
+        padding-right: 20px;
+    }
+
+    .right-left {
+        flex: 1 1 70%;
+        padding-right: 20px;
+    }
+}
+
+.right-column,
+.right-left {
+    text-align: justify;
+}
+
+.right-column p,
+.right-left p {
+    text-indent: 10px;
+
+}
+
+
+/* EVENT */
+.event-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.event-row {
+    display: flex;
+    width: 100%;
+}
+
+.event-image-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+}
+
+.event-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.event-details-column {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+}
+
+.event-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.event-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.event-date {
+    font-size: 16px;
+    font-weight: bold;
+}
